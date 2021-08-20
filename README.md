@@ -13,13 +13,13 @@
 
 ## Description
 
-_A user can input any number into this application to receive a count from zero up to their number. For fun, the app makes the following number replacements:
+_A user can input any number into this application to receive a count from zero up to their number. For fun, the app makes the following number replacements:_
 
-* All numbers containing a 3 are replaced with the phrase "Won't you be my neighbor?"
-* All numbers containing a 2, but no 3, are replaced with "Beep!"
-* All numbers containing a 1, but no 2 or 3, are replaced with "Boop!"
+* _All numbers containing a 3 are replaced with the phrase "Won't you be my neighbor?"_
+* _All numbers containing a 2, but no 3, are replaced with "Beep!"_
+* _All numbers containing a 1, but no 2 or 3, are replaced with "Boop!"_
 
-Users can replace their number in the input field to get a new count as many times as they'd like._
+_Users can replace their number in the input field to get a new count as many times as they'd like._
 
 ## Setup/Installation Requirements
 
@@ -27,9 +27,9 @@ Users can replace their number in the input field to get a new count as many tim
 Instructions for cloning can be found [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository)._
 * _Navigate to the top level of the roboger directory_
 * _Open index.html in your browser_
-* _Input a number into the field next to "How High Should We Count?"
-* _Click the "Count!" button
-* _View your fun number list
+* _Input a number into the field next to "How High Should We Count?"_
+* _Click the "Count!" button_
+* _View your fun number list_
 
 ## Tests/Specs
 
