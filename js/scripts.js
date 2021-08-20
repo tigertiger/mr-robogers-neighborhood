@@ -25,10 +25,24 @@ $("#bbCounter").submit(function(event) {
 event.preventDefault();
 const finalNumber = $("#ourNumber").val();
 $("#counterBlock").text(beepBoop(finalNumber));
+// let numberList = (beepBoop(finalNumber));
+// console.log(numberList);
+// $("#test").text(numberList[0] + " " + numberList[1]);
+// testing
+
+//
+
 })
 });
 
-
+// Working
+// $(document).ready(function() {
+//   $("#bbCounter").submit(function(event) {
+//   event.preventDefault();
+//   const finalNumber = $("#ourNumber").val();
+//   $("#counterBlock").text(beepBoop(finalNumber));
+//   })
+//   });
 
 // Test
 
