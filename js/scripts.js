@@ -4,6 +4,7 @@ function beepBoop(input) {
   let bbArray = [];
   for (let i = 0; i <= input; i++) {
     let numbers = i.toString();
+    console.log(numbers);
     if (numbers.includes(3)) {
       bbArray.push("Won't you be my neighbor?");
     } else if (numbers.includes(2)) {
@@ -16,6 +17,25 @@ function beepBoop(input) {
   }
   return bbArray;
 }
+
+// UI Logic
+
+// function showCount(input) {
+
+//   beepBoop(endingNumber);
+// }
+
+
+$(document).ready(function() {
+$("#bbCounter").submit(function(event) {
+event.preventDefault();
+let input = $("ourNumber#input").val();
+let finalNumber = beepBoop(input);
+$("#countingBlock").html(finalNumber);
+})
+});
+
+
 
 // Test
 
@@ -30,11 +50,8 @@ function beepBoop(input) {
 //     } else if (number.includes(1)) {
 //       bbArray.push("Beep!");
 //     } else {
-//     bbArray.push(number);
+//     bbArray.push(number[i]);
 //     }
 //   })
 //   return bbArray;
 // }
-
-// UI Logic
-
