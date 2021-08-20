@@ -29,9 +29,8 @@ function beepBoop(input) {
 $(document).ready(function() {
 $("#bbCounter").submit(function(event) {
 event.preventDefault();
-let input = $("ourNumber#input").val();
-let finalNumber = beepBoop(input);
-$("#countingBlock").html(finalNumber);
+const finalNumber = $("#ourNumber").val();
+$("#counterBlock").html(beepBoop(finalNumber));
 })
 });
 
