@@ -16,3 +16,25 @@ function beepBoop(input) {
   }
   return bbArray;
 }
+
+// Test
+
+// function beepBoop(input) {
+//   let bbArray = [];
+//   let numbers = [input.toString()]
+//   numbers.forEach(function(number) {
+//     if (number.includes(3)) {
+//       bbArray.push("Won't you be my neighbor?");
+//     } else if (number.includes(2)) {
+//       bbArray.push("Boop!");
+//     } else if (number.includes(1)) {
+//       bbArray.push("Beep!");
+//     } else {
+//     bbArray.push(number);
+//     }
+//   })
+//   return bbArray;
+// }
+
+// UI Logic
+

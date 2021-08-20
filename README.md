@@ -1,7 +1,7 @@
 
 # _Mr. Roboger's Neighborhood_
 
-#### _A fun little goofabout to return a lit of inputted numbers...with just a few unexpected changes!_
+#### _A fun little goofabout to return a list of inputted numbers...with just a few unexpected changes!_
 
 #### By _**Melissa Schatz-Miller**_
 
