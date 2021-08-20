@@ -20,17 +20,11 @@ function beepBoop(input) {
 
 // UI Logic
 
-// function showCount(input) {
-
-//   beepBoop(endingNumber);
-// }
-
-
 $(document).ready(function() {
 $("#bbCounter").submit(function(event) {
 event.preventDefault();
 const finalNumber = $("#ourNumber").val();
-$("#counterBlock").html(beepBoop(finalNumber));
+$("#counterBlock").text(beepBoop(finalNumber));
 })
 });
 
