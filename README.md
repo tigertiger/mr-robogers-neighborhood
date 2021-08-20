@@ -14,3 +14,8 @@ Test: "It should replace any 3s entered with "Won't you be my neighbor?"
 Code:
   beepBoop(3);
 Expected Output: [0, 1, 2, "Won't you be my neighbor?"]
+
+Test: "It should replace any 2's entered with "Boop!"
+Code:
+  beepBoop(2);
+Expected Output: [0, 1, "Boop!"]

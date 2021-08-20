@@ -6,6 +6,8 @@ function beepBoop(input) {
     let numbers = i.toString();
     if (numbers.includes(3)) {
       bbArray.push("Won't you be my neighbor?");
+    } else if (numbers.includes(2)) {
+      bbArray.push("Boop!");
     } else {
     bbArray.push(i);
     }
