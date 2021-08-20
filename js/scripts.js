@@ -8,6 +8,8 @@ function beepBoop(input) {
       bbArray.push("Won't you be my neighbor?");
     } else if (numbers.includes(2)) {
       bbArray.push("Boop!");
+    } else if (numbers.includes(1)) {
+      bbArray.push("Beep!");
     } else {
     bbArray.push(i);
     }
