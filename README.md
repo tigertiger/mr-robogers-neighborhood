@@ -75,6 +75,11 @@ Code:
   beepBoop(5);
 Expected Output: [0, 1, 2, 3, 4, 5]
 
+3. Test: "It should replace any 3s entered with 'Won't you be my neighbor?'"
+Code:
+  beepBoop2(3);
+Expected Output: [0, 1, 2, "Won't you be my neighbor?"]
+
 ```
 
 ## Known Bugs

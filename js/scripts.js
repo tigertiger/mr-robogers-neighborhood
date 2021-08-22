@@ -1,5 +1,13 @@
 // Business Logic
 
+function replacer(num) {
+let input = num;
+if (input.includes(3)) {
+  return true;
+} else {
+  return false;
+}
+}
 //forEach loop
 
 function beepBoop2(input) {
@@ -9,10 +17,14 @@ function beepBoop2(input) {
   Array.from(toBeepBoop).forEach(function(number, index, sourceArr) {
     let ourNumber = parseInt(input);
     const range = (start, stop, step) => Array.from({ length: (stop - start) / step + 1}, (_, index) => start + (index * step));
-    let ourRange = range(0, ourNumber + 1, 1);
+    let ourRange = range(0, ourNumber, 1);
     console.log(ourRange, "ourRange");
-      bbArray2.push(ourRange)
-    
+    let fixerRange = ourRange.toString();
+    console.log(fixerRange, "fixerRange")
+    if (fixerRange.includes(3)) {
+      let fixedRange = fixerRange.replace(3, "Won't you be my neighbor?");
+      bbArray2.push(fixedRange);
+    } 
   })
   console.log(bbArray2, "bbArray2");
 }
