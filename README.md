@@ -85,6 +85,11 @@ Code:
   beepBoop2(2);
 Expected Output: [0, 1, "Boop!"]
 
+5. Test: "It should replace numbers including 2 and 3 with 'won't you be my neighbor,' NOT 'Boop!'"
+Code:
+  beepBoop2(23);
+Expected Output: [0, 1, "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, 10, 11, "Boop!", "Won't you be my neighbor?", 14, 15, 16, 17, 18, 19, "Boop!", "Boop!", "Boop!", "Won't you be my neighbor?"]
+
 ```
 
 ## Known Bugs
