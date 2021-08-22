@@ -24,7 +24,10 @@ function beepBoop2(input) {
     if (fixerRange.includes(3)) {
       let fixedRange = fixerRange.replace(3, "Won't you be my neighbor?");
       bbArray2.push(fixedRange);
-    } 
+    } else if (fixerRange.includes(2)) {
+      let fixedRange = fixerRange.replace(2, "Boop!");
+      bbArray2.push(fixedRange);
+    }
   })
   console.log(bbArray2, "bbArray2");
 }

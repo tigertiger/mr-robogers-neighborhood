@@ -80,6 +80,11 @@ Code:
   beepBoop2(3);
 Expected Output: [0, 1, 2, "Won't you be my neighbor?"]
 
+4. Test: "It should replace any 2's entered with 'Boop!'"
+Code:
+  beepBoop2(2);
+Expected Output: [0, 1, "Boop!"]
+
 ```
 
 ## Known Bugs
