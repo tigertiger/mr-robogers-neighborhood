@@ -70,6 +70,11 @@ Describe: beepBoop2()
 Code: beepBoop2(0);
 Expected Output: 0
 
+2. Test: "It should return the number entered and all preceding numbers as an array"
+Code: 
+  beepBoop(5);
+Expected Output: [0, 1, 2, 3, 4, 5]
+
 ```
 
 ## Known Bugs
