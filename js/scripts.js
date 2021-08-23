@@ -1,6 +1,6 @@
 // Business Logic
 
-// testing regex replace
+// foEach loop [not fully functional]
 
 function beepBoop2(input) {
   let bbArray2 = [];
@@ -20,7 +20,7 @@ function beepBoop2(input) {
 return bbArray2;
 }
 
-//for loop
+//for loop [fully functional]
 
 function beepBoop(input) {
   let bbArray = [];
@@ -38,8 +38,6 @@ function beepBoop(input) {
   }
   return bbArray;
 }
-
-
 
 
 
