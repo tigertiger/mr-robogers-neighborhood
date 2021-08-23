@@ -94,6 +94,7 @@ Expected Output: [0, 1, "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, 
 
 ## Known Bugs
 
+* _forEach version does not properly replace all digits of 2-digit+ integers including 1, 2, 3_
 * _Not quite a "bug," but the count currently displays without spaces between its output items. This will hopefully be fixed someday._
 
 ## License
