@@ -6,18 +6,18 @@ function beepBoop2(input) {
   let bbArray2 = [];
   let input2 = input.toString();
   Array.from(input2).forEach(function(number, index) {
-  const range = (start, stop, step) => Array.from({ length: (stop - start) / step + 1}, (_, index) => start + (index * step));
-  let ourRange = range(0, input, 1);
-  console.log(ourRange, "ourRange");
+    const range = (start, stop, step) => Array.from({ length: (stop - start) / step + 1}, (_, index) => start + (index * step));
+    let ourRange = range(0, input, 1);
+    console.log(ourRange, "ourRange");
     if (ourRange.toString().includes(3) || ourRange.toString().includes(2) || ourRange.toString().includes(1)) {
       let newRange = (ourRange.toString()).replace(/.3+/g, "Won't you be my neighbor?").replace(/.2+/g, "Boop!").replace(/\b.1\d*\b/g, "Beep!").replace(/1/g, "Beep!");
       bbArray2.push(newRange);
     } else {
-    bbArray2.push(ourRange);
+      bbArray2.push(ourRange);
     }
     console.log(bbArray2);
-})
-return bbArray2;
+  })
+  return bbArray2;
 }
 
 //for loop [fully functional]
@@ -45,9 +45,9 @@ function beepBoop(input) {
 
 $(document).ready(function() {
 $("#bbCounter").submit(function(event) {
-event.preventDefault();
-const finalNumber = $("#ourNumber").val();
-$("#counterBlock").text(beepBoop(finalNumber));
+  event.preventDefault();
+  const finalNumber = $("#ourNumber").val();
+  $("#counterBlock").text(beepBoop(finalNumber));
 })
 
 $("#bbEach").submit(function(event) {
@@ -55,5 +55,4 @@ $("#bbEach").submit(function(event) {
   const finalNumber2 = $("#ourNewNumber").val();
   $("#eachCountBlock").text(beepBoop2(finalNumber2));
 })
-
 });
