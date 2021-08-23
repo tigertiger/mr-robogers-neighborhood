@@ -25,7 +25,6 @@ function beepBoop2(input) {
 function beepBoop(input) {
   let bbArray = [];
   for (let index = 0; index <= input; index++) {
-    console.log(index.toString())
     if ((index.toString()).includes(3)) {
       bbArray.push("Won't you be my neighbor?");
     } else if ((index.toString()).includes(2)) {

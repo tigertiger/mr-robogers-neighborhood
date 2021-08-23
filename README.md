@@ -65,7 +65,7 @@ Code:
   beepBoop(1);
 Expected Output: [0, "Beep!"]
 
-// My friend said tests should be written more like this, if I were understanding correctly. Including both versions for now, since I'm not sure:
+// A friend said tests should be written more like this, if I was understanding correctly. I'm including both versions for now, since I'm not sure:
 
 Describe: beepBoop()
 1. Test: "It should return an array with a 0 if the number 0 is inputted"
